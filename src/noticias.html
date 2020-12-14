@@ -1,82 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Agencia de vaijes, viajes, tiquetes" />
-        <meta name="keywords" content="Agencia de vaijes, viajes, turismo, Colombia "/>
-        <title>Agencia de Viajes</title>
-        <link rel="stylesheet" type="text/css" href="estilo.css">
-        <link rel="shortcut icon" type="image/icon" href="imagenes/avion.png">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
-        </script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> 
-        </script> <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> 
-        </script> 
-    </head> 
-        
+        <head>
+            <meta charset="utf-8" />
+            <meta name="description" content="Agencia de vaijes, viajes, tiquetes" />
+            <meta name="keywords" content="Agencia de vaijes, viajes, turismo, Colombia "/>
+            <title>Agencia de Viajes</title>
+            <link rel="stylesheet" type="text/css" href="estilo.css">
+            <link rel="shortcut icon" type="image/icon" href="imagenes/avion.png">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+            </script> 
     </head>
-</head>
 <body>
 
     <script src = 'js/bootstrap.min.js'></script>
 
- 
     <header>
         <div>
             <div>
-                
-<!-- Menu de navegacion y logo utilizando Bootstrap -->
-         <nav class="navbar navbar-expand-lg navbar-dark navbar-full" style="background-color: #1babe4d8"> 
-            <a class="navbar-brand" href="index.html">
-            <img src="imagenes/logo.svg" width="180" height="40" alt="">
-            </a>
-  
-            <ul class="navbar-nav ml-auto"> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="index.html"> 
-                      Inicio
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="hoteles.html"> 
-                      Hoteles
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="paquetes.html"> 
-                      Paquetes 
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="ofertas.html"> 
-                      Ofertas
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="noticias.html"> 
-                      Noticias
-                    </a> 
-                </li> 
-                <li class="nav-item"> 
-                    <a class="nav-link" href="equipo.html"> 
-                      Equipo
-                    </a> 
-                </li> 
-            </ul> 
-        </nav>
-
-
+                        
+        <!-- Menu de navegacion y logo utilizando Bootstrap -->
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-full" style="background-color: #1babe4d8"> 
+                    <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/logo.svg" width="180" height="40" alt="">
+                    </a>
+        
+                    <ul class="navbar-nav ml-auto"> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="index.html"> 
+                            Inicio
+                            </a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="hoteles.html"> 
+                            Hoteles
+                            </a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="paquetes.html"> 
+                            Paquetes 
+                            </a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="ofertas.html"> 
+                            Ofertas
+                            </a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="noticias.html"> 
+                            Noticias
+                            </a> 
+                        </li> 
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="equipo.html"> 
+                            Equipo
+                            </a> 
+                        </li> 
+                    </ul> 
+                </nav>
+            </nav>
+                </div>
             </div>
-
-
-
-
-        </div>
-
-
     </header>
 
 
+<!---este parte de codigo esta combinada usando flex y bootstrap tambien hace unos cambios de estilo en ccs-->
+
+<div id='noticias'>
+
+    <div>
+    <h1  style="color: yellow; text-align: center; -webkit-text-stroke: 1px black;">NOTICIAS</h1> 
+    <div class="container-fluid m-5 mx-auto text-center">
+
+        <div class="container">
+
+            <div class="item"><h4 class="card-title">Princess Cruises. Tecnología para evitar el contacto.</h4>
+                <div class="card">
+                    <img class="centrado" src ="imagenes/noticia2.jpg" width="50%" height="50%">
+                    <div class="card-body">
+                        <p class="card-text">Princess Cruises anunció que, una vez que se apruebe su regreso a la actividad en 2021, su flota global contará con la experiencia MedallionClass, ofreciendo una serie de tecnologías sin contacto para mejorar y personalizar significativamente la experiencia del huésped y potenciar los nuevos protocolos de salud</p>
+                        <a href="https://argentina.ladevi.info/princess-cruises/tecnologia-evitar-el-contacto-n27429" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item"><h4 class="card-title">Ultra Air busca nuevos accionistas antes de su primer vuelo.</h4>
+                <div class="card">
+                    <img class="centrado" src ="imagenes/noticia1.jpg" width="50%" height="50%">
+                    <div class="card-body">
+                        <p class="card-text">La nueva compañía de bajo coste Ultra Air aún no es una realidad, pero su creador, William Shaw, ya está buscando capitalización e inversionistas para su proyecto mediante el mercado de acciones en Colombia.</p>
+                        <a href="https://www.reportur.com/colombia/2020/12/11/ultra-air-ya-busca-nuevos-accionistas-primer-vuelo/" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="item"><h4 class="card-title">Video: Trifulca en un avión por un pasajero que se negó a usar tapabocas.
+                            .</h4>
+                <div class="card">
+                    <img class="centrado" src ="imagenes/noticia3.jpg" width="50%" height="50%">
+                    <div class="card-body">
+                        <p class="card-text">Un pasajero que se negó a usar tapabocas durante un vuelo de la aerolínea estadounidense Allegiant Air en Arizona desató una pelea después de que la tripulación le exigiese respetar las medidas sanitarias y varios pasajeros le increparan.
+                            La riña se prolongó durante varios minutos hasta que finalmente, el pasajero desobediente fue expulsado del avión.</p>
+                        <a href="https://www.reportur.com/mexico/2020/10/13/video-trifulca-avion-pasajero-se-nego-usar-tapabocas/" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="item"><h4 class="card-title">Avianca implementa cambios a LifeMiles: incluye nueva categoría                           .</h4>
+                <div class="card">
+                    <img class="centrado" src ="imagenes/noticia4.jpg" width="50%" height="50%">
+                    <div class="card-body">
+                        <p class="card-text">Princess Cruises anunció que, una vez que se apruebe su regreso a la actividad en 2021, su flota global contará con la experiencia MedallionClass, ofreciendo una serie de tecnologías sin contacto para mejorar y personalizar significativamente la experiencia del huésped y potenciar los nuevos protocolos de salud</p>
+                        <a href="https://www.reportur.com/aerolineas/2020/12/10/avianca-implementa-cambios-lifemiles-incluye-nueva-categoria/" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+</div>
+
+<!---fin del codigo caja de noticias-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script> <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> 
+<script src = 'js/bootstrap.min.js'></script>
 
 
 
